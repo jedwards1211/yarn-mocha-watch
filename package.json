@@ -1,0 +1,12 @@
+{
+  "name": "yarn-mocha-watch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test:watch": "mocha -r teardown.js test.js --watch"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.0"
+  }
+}
